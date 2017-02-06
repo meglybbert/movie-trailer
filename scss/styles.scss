@@ -1,15 +1,2 @@
-/* Main Stylesheet */
-$pri-color: gold;
-$sec-color: black;
-$ter-color: darkGray;
-$quat-color: gray;
-$quint-color: lightGray;
-
-
-body{
-    background: gold;
-}
-
-h1{
-    text-transform: uppercase;
-}
+/* Grand Central Terminal Stylesheet */
+@import "global";
