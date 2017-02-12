@@ -1,12 +1,21 @@
 // Typography 
 //Google Fonts
-@import url('https://fonts.googleapis.com/css?family=Bahiana|Cantarell:700');
+@import url('https://fonts.googleapis.com/css?family=Bahiana|Montserrat:300');
 
 // Font Variables
-$bahiana: 'Bahiana', sans-serif;   
-$cantarell: 'Cantarell', sans-serif;
+$bahiana: 'Bahiana', cursive;   
+$montserrat: 'Montserrat', sans-serif;
 
 //Styles
 h1{
     font-family: $bahiana;
+    font-size: 8em;
+    color: $quat-color;
+    background: $pri-color;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+p, a{
+    font-family: $montserrat;
 }
