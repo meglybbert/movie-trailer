@@ -7,13 +7,22 @@ $bahiana: 'Bahiana', cursive;
 $montserrat: 'Montserrat', sans-serif;
 
 //Styles
+h2{
+    font-family: $montserrat;
+    font-weight: bold;    
+}
+
 h1{
     font-family: $bahiana;
     font-size: 8em;
-    color: $ter-color;
-    background: $pri-color;
+    color: $pri-color;
     text-transform: uppercase;
-    text-align: right;
+}
+
+h2,
+h1{
+    text-align: center;
+    margin: 0;
 }
 
 p, a{

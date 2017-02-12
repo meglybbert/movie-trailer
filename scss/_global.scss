@@ -1,17 +1,15 @@
 $pri-color: #000;
-$sec-color: #b3b3b3;
-$ter-color: #aa5791;
-$quat-color: #ffdc07;
-$quint-color: #eee;
+$sec-color: #aa5791;
+$ter-color: #ffdc07;
+$quat-color: #eee;
 
 body{
-    background: $quint-color;
+    background: $quat-color;
 }
 
 
 //Header Styling
-h1{
-    padding: .125em .25em;
+header{
     margin: auto;
 }
 
@@ -26,7 +24,7 @@ video{
 
 //Footer Styling
 footer{
-    background: $quat-color;
+    background: $pri-color;
     text-align: center;
     padding: .125em .25em;
 }
