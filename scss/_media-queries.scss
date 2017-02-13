@@ -4,13 +4,12 @@
    .page {
        display: block;
     }
-    
-    
+        
   /* Diagnostic Styling. Delete When Done. */
-  body:before {
+  /*body:before {
        background: yellow;
        content: "Mobile Size";
-  }
+  }*/
     
 }
 
@@ -21,11 +20,25 @@
         padding: 2em;
         display: flex;
         justify-content: space-between;
+        padding-bottom: 1em;
     }
     
-    main article,
-    main aside {
-        width: 50%;
+    article{
+        order: 2;
+        margin-left: 1em;
+    }
+    
+    #facts{
+        li{
+            width: 32.4%;
+        }
+    }
+    aside{
+        margin-right: 1em;
+    }
+    
+    footer{
+        margin: 0;
     }
     
   /* Diagnostic Styling. Delete When Done. */
