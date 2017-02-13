@@ -217,10 +217,10 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
     font-size: 0;
     line-height: 0;
     text-decoration: none;
-    margin: 10px 6px;
+    margin: 13px 6px;
     padding: 0;
     position: absolute;
-    height: 20px;
+    height: 16px;
     width: 20px;
     border: 0;
     background: transparent url("../img/controls.svg");
@@ -265,7 +265,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 }
 
 .mejs__pause > button {
-    background-position: -20px 0;
+    background-position: 0 -16px;
 }
 
 .mejs__replay > button {
@@ -278,7 +278,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 .mejs__time-rail {
     direction: ltr;
     width: 200px;
-    padding-top: 10px;
+    padding-top: 13px;
     height: 40px;
     position: relative;
     margin: 0 10px;
@@ -328,7 +328,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 }
 
 .mejs__time-current {
-    background: rgba(255, 255, 255, 0.9);
+    background: $pri-color;
     width: 0;
 }
 
@@ -348,7 +348,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 .mejs__time-float {
     position: absolute;
     display: none;
-    background: #eee;
+    background: $sec-color;
     width: 36px;
     height: 17px;
     border: solid 1px #333;
@@ -414,11 +414,11 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 /* Start: Mute/Volume */
 .mejs__mute > button {
-    background-position: -60px 0;
+    background-position: 128px 0;
 }
 
 .mejs__unmute > button {
-    background-position: -40px 0;
+    background-position: 128px 16px;
 }
 
 .mejs__volume-button {
