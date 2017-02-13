@@ -12,7 +12,8 @@ p, a, h2{
 }
 
 h2{
-    font-weight: 700;    
+    font-weight: 700;   
+    font-size: 1.7em;
 }
 
 h1{
@@ -20,6 +21,7 @@ h1{
     font-size: 8em;
     color: $pri-color;
     text-transform: uppercase;
+    font-weight: lighter;
 }
 
 h2,
