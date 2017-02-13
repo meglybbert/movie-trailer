@@ -5,14 +5,34 @@ $quat-color: #eee;
 
 body{
     background: $quat-color;
+    margin-top: 1em;
 }
-
 
 //Header Styling
 header{
     margin: auto;
 }
 
+//Main Styling
+main{
+    margin: 0 1.5em;
+}
+
+//Facts Styling
+#facts{
+    li{
+        display: inline-block; 
+        width: 32.654%;
+    }
+    
+    li:nth-child(1){
+        text-align: left;
+    }
+    
+    li:nth-child(3){
+        text-align: right;
+    }
+}
 
 //Video Player Styling
 video{
@@ -21,10 +41,27 @@ video{
     width: 100%;
 }
 
+//Button Styling
+aside{
+    li{
+        background: $sec-color;
+        width: 100%;
+        margin-top: 1em;
+        a{
+            line-height: 3em;
+        }
+    }
+    
+    li:nth-child(1){
+        background-color: $ter-color;
+    }
+}
+
 
 //Footer Styling
 footer{
     background: $pri-color;
     text-align: center;
     padding: .125em .25em;
+    margin-top: 1.5em;
 }

@@ -1,15 +1,18 @@
 // Typography 
 //Google Fonts
-@import url('https://fonts.googleapis.com/css?family=Bahiana|Montserrat:300');
+@import url('https://fonts.googleapis.com/css?family=Bahiana|Montserrat:400,700');
 
 // Font Variables
 $bahiana: 'Bahiana', cursive;   
 $montserrat: 'Montserrat', sans-serif;
 
 //Styles
-h2{
+p, a, h2{
     font-family: $montserrat;
-    font-weight: bold;    
+}
+
+h2{
+    font-weight: 700;    
 }
 
 h1{
@@ -25,6 +28,32 @@ h1{
     margin: 0;
 }
 
-p, a{
-    font-family: $montserrat;
+p{
+    font-weight: 400;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li{
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    p{
+        font-weight: 700; //Strangely, this font-weight declaration is not redundant. If eliminated, text is not bold.
+    }
+}
+
+a{
+    text-decoration: none;
+    color: $pri-color;
+}
+
+footer{
+    p{
+        color: $quat-color;
+    }
 }
