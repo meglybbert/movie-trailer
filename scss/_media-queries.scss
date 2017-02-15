@@ -3,19 +3,17 @@
 
    .page {
        display: block;
-    }
-    
-        
-  /* Diagnostic Styling. Delete When Done. */
-  /*body:before {
-       background: yellow;
-       content: "Mobile Size";
-  }*/
-    
+    } 
 }
 
 /* Tablet:  768px = 160em */
 @media screen and (min-width: 48em)  {
+    header{
+        background-image: url(http://i.imgur.com/aDXEfx1.png), url(http://i.imgur.com/gWvSEva.png);
+        background-size: contain;
+        background-repeat: no-repeat, no-repeat;
+        background-position: top left, top right;
+    } 
     
     main {
         padding: 1em 2em;
@@ -49,12 +47,6 @@
         margin: 0;
     }
     
-  /* Diagnostic Styling. Delete When Done. */
-  /*body:before {
-       background: yellow;
-       content: "Tablet Size";
-  }*/
-
 }
 
 /* Desktop: 1280px = 80em */
@@ -64,12 +56,9 @@
         margin: auto;
     }
       
-    
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Desktop Size";
-  }
-    
+    footer{
+        margin-top: 2em;
+    }
+   
 
 }

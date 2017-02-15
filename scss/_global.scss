@@ -4,22 +4,13 @@ $ter-color: #ffdc07;
 $quat-color: #eee;
 
 body{
-    background: $quat-color;
-    margin-top: 1em;
-}
-
-//Background Image Styling
-.multi_bg_example {
-  width: 100%;
-  height: 400px;
-  background-image: url(http://i.imgur.com/aDXEfx1.png), url(http://i.imgur.com/gWvSEva.png);
-  background-repeat: no-repeat, no-repeat;
-  background-position: top left, top right;
+    background-color: $quat-color;
 }
 
 //Header Styling
 header{
     margin: auto;
+    padding: 1em 0;
 }
 
 //Main Styling
