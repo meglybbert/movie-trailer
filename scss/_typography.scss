@@ -16,12 +16,33 @@ h2{
     font-size: 1.7em;
 }
 
+@mixin lettering ($kilter){
+    position: relative;
+    top: $kilter;
+}
+
 h1{
     font-family: $bahiana;
     font-size: 8em;
     color: $pri-color;
     text-transform: uppercase;
     font-weight: lighter;
+    padding-top: .03em;
+    .char2{
+        @include lettering (-.05em);
+    }
+    .char3, .char6{
+        @include lettering (.04em);
+    }
+    .char5{
+        @include lettering (-.02em);
+    } 
+    .char7{
+        @include lettering (-.055em);
+    }  
+    .char9{
+        @include lettering (-.03em);
+    }
 }
 
 h2,
