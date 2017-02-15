@@ -31,15 +31,20 @@ video{
     
     li{
         display: inline-block; 
-        width: 29%;
     }
     
     li:nth-child(1){
         text-align: left;
+        width: 32.65%;
+    }
+    
+    li:nth-child(2){
+        width: 33%;
     }
     
     li:nth-child(3){
         text-align: right;
+        width: 32%;
     }
 }
 
