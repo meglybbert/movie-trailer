@@ -50,18 +50,25 @@ article{
 }
 
 //Button Styling
+@mixin pushme ($color){
+    background-color: $color;
+    width: 100%;
+    margin-top: 1em;
+    line-height: 3em;
+}
+
+.mobileOnly{
+    @include pushme($ter-color);
+}
+
 aside{
     li{
-        background: $sec-color;
-        width: 100%;
-        margin-top: 1em;
-        a{
-            line-height: 3em;
-        }
+        @include pushme($sec-color);
     }
     
     li:nth-child(1){
         background-color: $ter-color;
+        display: none;
     }
 }
 
